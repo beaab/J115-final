@@ -21,8 +21,19 @@
             background-position: center;
             overflow: hidden;}
         p{font-family: 'Times New Roman'}
-        h4{font-family: 'Open Sans', serif}
-        .carousel {width:80%; height:auto; margin: auto}
+        h3{font-family: 'Open Sans', serif; font-weight: 700, }
+        .carousel{width:80%; height:auto; margin: auto}
+/*        .carousel-caption{color: white }*/
+/*
+        p1{font-family: 'Times New Roman'; text-shadow: 1px 1px black; font-size: 12px; font-size-adjust: auto}
+        .text-block {position:absolute; bottom: px; background-color: black; color: white; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px
+}
+*/
+        .carousel-caption {position: relative; left: 0; top: 0; font-family: 'Times New Roman'; font-size: 14px; padding-left: 20px; padding-right: 20px; padding-top: 8px;}
+   
+        
+        
+/*        }family: 'Times New Roman'; padding: 1px solid blue}*/
       
         
       
@@ -57,13 +68,13 @@
 <!--              <h2 class= "text-center">Headline here</h2>-->
                 
     
-    <p style='font-size: 17px' class="text-center">My name is Aracely Borja (she/her), I'm from Oakland California, and I'm a student at UC Berkeley majoring in Media Studies and minoring in Journalism. This website serves as a brief reflection of my personality, interests, and goals. </p>
+    <p style='font-size: 17px' class="text-center">Hey everyone! My name is Aracely Borja (she/her) and I'm from Oakland California. I'm currently a student at UC Berkeley majoring in Media Studies and minoring in Journalism. This website serves as a brief reflection of my personality, interests, and goals. </p>
         
-    <h4>Photos of Me</h4>
+    <h3>Photos</h3>
                 
                 
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
+    <ol class="carousel-indicators my-0">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
@@ -75,8 +86,8 @@
 <!--Carousel Image 1-->
     <div class="carousel-item active" data-interval="9000">
       <img src="red%20dress.JPG" class="d-block mx-auto w-100"  alt="A baby photo of me">
-      <div class="carousel-caption d-none d-md-block">
-        <p>Aracely Borja, 2, of Oakland, California playing in her parents' bedroom.</p>
+      <div class="carousel-caption d-none d-md-block bg-dark">
+        <p1>Aracely Borja, 2, of Oakland, California playing in her parents' bedroom.</p1>
       </div>
     </div>
     
@@ -84,8 +95,8 @@
 <!--Carousel Image 2-->
     <div class="carousel-item" data-interval="9000">
       <img src="little%20devil.JPG" class="d-block w-100" alt="A Halloween photo of my dad and I from when I was younger">
-      <div class="carousel-caption d-none d-md-block">
-        <p>Aracely Borja,1, with her father Rene Borja, who dressed her up for Halloween.</p>
+      <div class="carousel-caption d-none d-md-block bg-dark">
+        <p1>Aracely Borja, 1, with her father Rene Borja, who dressed her up for Halloween.</p1>
       </div>
     </div>
    
@@ -93,8 +104,8 @@
 <!--Carousel Image 3-->
     <div class="carousel-item" data-interval="9000">
       <img src="high%20school.jpg" class="d-block w-100" alt="Photo of me from high school">
-      <div class="carousel-caption d-none d-md-block">
-        <p>Aracely Borja, 17, in her San Leandro, California home during her senior year of high school. </p>
+      <div class="carousel-caption d-none d-md-block bg-dark">
+        <p1>Aracely Borja, 17, in her San Leandro, California home during her senior year of high school. </p1>
       </div> 
     </div>
         
@@ -102,17 +113,17 @@
 <!--Carousel Image 4-->
     <div class="carousel-item" data-interval="9000">
       <img src="game%20day.JPG" class="d-block w-100" alt="Photo of me in high school">
-      <div class="carousel-caption d-none d-md-block">
-        <p>Aracely Borja, 17, at the California Memorial Stadium after watching her first freshman year football game.</p>
+      <div class="carousel-caption d-none d-md-block bg-dark">
+        <p1>Aracely Borja, 17, at the California Memorial Stadium after watching her first freshman year football game.</p1>
         </div>          
     </div>
 
         
 <!--Carousel Image 5-->
     <div class="carousel-item" data-interval="9000">
-      <img src="los%20angeles.jpeg" class="d-block w-100" alt="Photo of me at a my cousin's Quinceañera">
-      <div class="carousel-caption d-none d-md-block">
-        <p>Aracely Borja, 20, of Oakland, California waits in line to ride the Zipper carnival ride at the Camp Flog Gnaw Festival in Los Angeles, California on November 9, 2019.</p>
+      <img src="campie.JPG" class="d-block w-100" alt="Photo of me at a my cousin's Quinceañera">
+      <div class="carousel-caption d-none d-md-block bg-dark">
+        <p1>Aracely Borja, 20, of Oakland, California waits in line to ride the Zipper carnival ride at the Camp Flog Gnaw Festival in Los Angeles, California on November 9, 2019.</p1>
       </div> 
     </div>
         
@@ -128,7 +139,7 @@
 </div>
 <!--                <img class="d-block img-fluid" src="http://placehold.it/2000x1400" alt="Placeholder"> -->
  </div>
-  </div>  
+    
       
       
         
@@ -149,30 +160,30 @@
 <video class="img-fluid" src="https://temp-j100.s3.amazonaws.com/traffic-bokeh.mp4" width="100%" height="auto" muted controls></video>-->
         </div>
         
-        
-        
-        
-        
+  <h3>Interview</h3>
+
         <div class="row justify-content-center mb-5">
-            <div class="col-12 col-md-10">
+<!--            <div class="col-12 col-md-10">
                 <p>In order to get.</p>
-            </div>
-            <audio class="d-block w-100" src="..." width="100%" height="auto" controls></audio>
-            <p style='font-size: 17px' class="text-center">In order for readers to get a better sense of who I am I decided to interview my younger sister, Natalie Borja, who I am very close to both in our relationship and in age. I asked a few fun and meaningful questions like what my biggest fear is and what her favorite memory of us is.</p>
+            </div>-->
+            <iframe src="https://anchor.fm/aracely98/embed/episodes/Natalie-Interview-ei01e9/a-a2tsgnr" height="auto" width="98%" frameborder="0" scrolling="no"></iframe>
+            <small class="text-muted text-center">In order for readers to get a better sense of who I am I decided to interview my younger sister, Natalie Borja. I asked her a few fun questions about things I really enjoy, like fashion and music. However, we also touched on more personal topics that gives the audience some insight on what I find important.</small>
         </div>
         
         
         
+<!--
         <div class="row justify-content-center mb-5">
             <div class="col-12 col-md-10">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat ut quam vel eleifend. Suspendisse potenti. Nullam vel diam vel sem feugiat dictum.</p>
             </div>
         </div>
+-->
         
         
         
         
-        
+        </div>
 <!--JavaScript Gibberish - can ignore -->
         
     </div><!-- closing container -->
